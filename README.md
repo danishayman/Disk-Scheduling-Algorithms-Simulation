@@ -1,7 +1,7 @@
 # 📀Disk Scheduling Algorithms Simulation 💿
 In the world of computers, smooth operation relies heavily on efficient management of data access. This is where disk scheduling comes in, playing a vital role in ensuring the optimal performance of your system. Disk scheduling, handled by the operating system, involves organizing and prioritizing requests for data transfer to and from the disk drive. Operating systems employ various disk scheduling algorithms to achieve optimal performance. Some of the most common ones include FCFS (First Come First Served), SSTF (Shortest Seek Time First), SCAN, C-SCAN (Circular SCAN), C-LOOK (Circular LOOK) and FSCAN.
 
-This Jupyter Notebook (CST232-Asg2.ipynb) simulates and compares the performance of three disk scheduling algorithms: SCAN, C-SCAN, and C-LOOK. Disk scheduling is a crucial aspect of operating systems, and this simulation helps analyze the average and worst-case seek times for different numbers of random disk requests.
+This Jupyter Notebook (Disk-Scheduling-Simulation.ipynb) simulates and compares the performance of three disk scheduling algorithms: SCAN, C-SCAN, and C-LOOK. Disk scheduling is a crucial aspect of operating systems, and this simulation helps analyze the average and worst-case seek times for different numbers of random disk requests.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -24,8 +24,8 @@ The simulation is implemented as a Jupyter Notebook, allowing users to interacti
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/danishayman/cst232-asg2
-   cd cst232-asg2
+   git clone https://github.com/danishayman/Disk-Scheduling-Algorithms-Simulation.git
+   cd Disk-Scheduling-Algorithms-Simulation
    ```
 
 2. Install the required dependencies:
@@ -40,7 +40,7 @@ The simulation is implemented as a Jupyter Notebook, allowing users to interacti
 
 4. Open the Jupyter Notebook:
     ```bash
-    jupyter-notebook CST232-Asg2.ipynb
+    jupyter-notebook Disk-Scheduling-Simulation.ipynb
     ```
 
 5. Inside the Jupyter Notebook, run the cells to execute the simulation.
